@@ -3,7 +3,7 @@ using namespace std;
 
 class Solution {
 public:
-    int kadane(const vector<int>& a) {
+    int kadane(const vector<int>& a) { 
         int max_sum = a[0], curr_sum = a[0];
         for (int i = 1; i < a.size(); i++) {
             curr_sum = max(a[i], curr_sum + a[i]);
