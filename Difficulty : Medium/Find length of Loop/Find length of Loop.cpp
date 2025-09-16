@@ -9,7 +9,7 @@ public:
                 int cnt = 1;
                 while (s->next != f) s = s->next, cnt++;
                 return cnt;  
-            }
+            } 
         }
         return 0;
     }
