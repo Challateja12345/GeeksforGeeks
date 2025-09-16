@@ -10,7 +10,7 @@ public:
                 while (s->next != f) s = s->next, cnt++;
                 return cnt;  
             } 
-        }
+        } 
         return 0;
     }
 };
