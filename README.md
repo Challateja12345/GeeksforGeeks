@@ -1,11 +1,2 @@
  # GeeksforGeeks
    
-        
- 
-   
-   
-          
-      
-    
- 
- 
